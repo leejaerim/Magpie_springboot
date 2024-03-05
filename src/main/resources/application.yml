@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: dev
+
+  # Hibernate 설정
+jpa:
+  properties:
+    hibernate:
+      dialect: org.hibernate.dialect.MySQL8Dialect
+  hibernate:
+    ddl-auto: none
+
+# 로깅 설정
+logging:
+  level:
+    org.springframework: INFO
+    org.hibernate: ERROR
