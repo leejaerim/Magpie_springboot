@@ -8,7 +8,7 @@ jpa:
     hibernate:
       dialect: org.hibernate.dialect.MySQL8Dialect
   hibernate:
-    ddl-auto: none
+    ddl-auto: update
 
 # 로깅 설정
 logging:
